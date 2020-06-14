@@ -1,0 +1,14 @@
+---
+---
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+#menu-state:hover ~ #menu-icon > span {
+    @apply bg-gray-900;
+}
+
+#menu-state:checked ~ #menu {
+    display: block;
+}
+
+@tailwind utilities;

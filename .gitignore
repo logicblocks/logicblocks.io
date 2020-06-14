@@ -1,0 +1,41 @@
+# vim
+*.swp
+*.swo
+
+# IntelliJ
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# Microsoft Code
+.vscode
+
+# Build
+vendor/
+build/
+dist/
+
+# OS
+.DS_Store
+*~
+
+# Temporary
+run/pids/
+run/logs/
+*.log
+.tmp
+.rakeTasks
+
+# Terraform
+.terraform
+/*.tfstate
+/*.tfstate.backup
+
+# Jekyll
+.sass-cache
+.jekyll-metadata
+src/.jekyll-cache
+
+# npm
+node_modules/
