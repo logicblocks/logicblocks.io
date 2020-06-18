@@ -258,3 +258,68 @@ The LogicBlocks organisation consists of a number of different types of modules:
   providing a particular capability.
 * _Examples_: A few example repositories exist giving end-to-end examples of 
   different aspects of the platform 
+
+### Repositories
+
+#### Libraries
+
+* [`antsy`](https://github.com/logicblocks/antsy): a simple ANSI escape code 
+  library.
+* [`configurati`](https://github.com/logicblocks/configurati): a library to 
+  manage application configuration, supporting various different configuration
+  sources, conversions and reusable specifications.
+* [`derivative`](https://github.com/logicblocks/derivative): a general purpose
+  in place scaffolding and source code rewrite tool. (work in progress).
+* [`exegesis`](https://github.com/logicblocks/exegesis): a library for 
+  interrogating Java types for annotation information.
+* [`hype`](https://github.com/logicblocks/hype): a collection of hypermedia
+  utilities for [`bidi`](https://github.com/juxt/bidi) and 
+  [`ring`](https://github.com/ring-clojure/ring).
+* [`jason`](https://github.com/logicblocks/jason): a configurable JSON encoding 
+  and decoding library backed by 
+  [`jsonista`](https://github.com/metosin/jsonista) and 
+  [`jackson-databind`](https://github.com/FasterXML/jackson-databind) with 
+  support for various key conversions.
+* [`liberator-mixin`](https://github.com/logicblocks/liberator-mixin): an 
+  extension to [`liberator`](http://clojure-liberator.github.io/liberator/)
+  allowing for composable mixins, including a number of commonly used mixins.
+* [`pathological`](https://github.com/logicblocks/pathological): a thin but 
+  comprehensive wrapper of Java NIO2.
+* [`spec-validate`](https://github.com/logicblocks/spec-validate): A 
+  clojure.spec based validation library, including a number of useful 
+  predicates and descriptive error reporting.
+* [`vent`](https://github.com/logicblocks/spec-validate): declarative and 
+  extensible rule based event processing.
+* [`zebra`](https://github.com/logicblocks/zebra): a wrapper for the Stripe
+  SDK, with support for the more modern recommended integration options, such 
+  as payment intents.
+  
+#### Components
+
+* [`component.flyway-migrator`](https://github.com/logicblocks/component.flyway-migrator):
+  a component to execute flyway migrations on start.
+* [`component.jdbc-data-source.postgres`](https://github.com/logicblocks/component.jdbc-data-source.postgres):
+  a component providing a pooled PostgreSQL JDBC data source using the
+  [`hikari`](https://github.com/brettwooldridge/HikariCP) connection pool.
+
+#### Resources
+
+* [`liberator-hal.discovery-resource`](https://github.com/logicblocks/liberator-hal.discovery-resource):
+  a HAL discovery resource for 
+  [`liberator`](http://clojure-liberator.github.io/liberator/).
+* [`liberator-hal.ping-resource`](https://github.com/logicblocks/liberator-hal.ping-resource):
+  a HAL ping resource for
+  [`liberator`](http://clojure-liberator.github.io/liberator/).
+  
+#### Services
+
+TODO: Add this.
+
+#### Examples
+
+* [`example-service`](https://github.com/logicblocks/example-service): an
+  example service demonstrating the capabilities of the LogicBlocks platform.
+  
+## Anatomy of a Service
+
+TODO: Add this.
