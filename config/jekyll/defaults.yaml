@@ -1,0 +1,13 @@
+title: "InfraBlocks"
+copyright_year: "2021"
+description: "Modular infrastructure components and libraries"
+author: "InfraBlocks Maintainers"
+
+plugins:
+  - "jekyll-tidy"
+
+css_dir: "dist"
+
+exclude:
+  - "ts"
+  - "css"

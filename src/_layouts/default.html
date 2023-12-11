@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.author }}">
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
 
-    <title>{{ site.title }}</title>
+  <title>{{ page.title }}</title>
 
-    <link href="/css/logicblocks.css" rel="stylesheet">
+  <link href="{{ site.data.manifest['main.css'] }}" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Questrial'
+        rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
 </head>
 
 <body>
+<script src="{{ site.data.manifest['main.js'] }}"></script>
 {{ content }}
 </body>
 </html>

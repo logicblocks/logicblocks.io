@@ -15,6 +15,9 @@
 vendor/
 build/
 dist/
+src/dist/
+src/_data/manifest.yml
+.direnv
 
 # OS
 .DS_Store
@@ -26,6 +29,9 @@ run/logs/
 *.log
 .tmp
 .rakeTasks
+.rspec_status
+.bundle
+
 
 # Terraform
 .terraform
@@ -33,9 +39,10 @@ run/logs/
 /*.tfstate.backup
 
 # Jekyll
+_site
 .sass-cache
+.jekyll-cache
 .jekyll-metadata
-src/.jekyll-cache
 
-# npm
-node_modules/
+# Node & NPM
+/node_modules

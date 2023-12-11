@@ -1,7 +1,0 @@
----
-website_bucket_secret: "TqYDqkDcYDTP0hTmVEtJdY53yHpCwzHNgYiLaei4"
-
-certificate_domain_name: "beta.logicblocks.io"
-
-addresses:
-  - "beta.%{hiera('zone_domain_name')}"
