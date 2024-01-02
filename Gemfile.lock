@@ -1549,6 +1549,7 @@ GEM
       addressable (~> 2.8)
       rchardet (~> 1.8)
     google-protobuf (3.25.1-arm64-darwin)
+    google-protobuf (3.25.1-x86_64-linux)
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     hiera (3.12.0)
@@ -1599,7 +1600,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mime-types (3.5.1)
+    mime-types (3.5.2)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2023.1205)
     minitar (0.9)
@@ -1699,6 +1700,8 @@ GEM
     safe_yaml (1.0.5)
     sass-embedded (1.69.5-arm64-darwin)
       google-protobuf (~> 3.23)
+    sass-embedded (1.69.5-x86_64-linux-gnu)
+      google-protobuf (~> 3.23)
     sexp_processor (4.17.0)
     shikashi (0.6.0)
       evalhook (>= 0.6.0)
@@ -1715,6 +1718,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   aws-sdk
