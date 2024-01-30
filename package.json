@@ -11,7 +11,7 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.16",
-    "css-loader": "^6.8.1",
+    "css-loader": "^6.10.0",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss": "^8.4.31",
     "postcss-cli": "^11.0.0",
