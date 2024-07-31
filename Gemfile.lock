@@ -1543,12 +1543,16 @@ GEM
     eventmachine (1.2.7)
     excon (0.105.0)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     getsource (0.2.2)
     git (1.18.0)
       addressable (~> 2.8)
       rchardet (~> 1.8)
     google-protobuf (4.27.2-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
     hamster (3.0.0)
@@ -1620,7 +1624,7 @@ GEM
     public_suffix (6.0.1)
     racc (1.7.3)
     rainbow (3.1.1)
-    rake (13.1.0)
+    rake (13.2.1)
     rake_circle_ci (0.11.0)
       colored2 (~> 3.1)
       excon (~> 0.72)
@@ -1700,6 +1704,9 @@ GEM
       sexp_processor (~> 4.16)
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
+    sass-embedded (1.77.8)
+      google-protobuf (~> 4.26)
+      rake (>= 13)
     sass-embedded (1.77.8-arm64-darwin)
       google-protobuf (~> 4.26)
     sexp_processor (4.17.0)
@@ -1720,6 +1727,7 @@ GEM
 PLATFORMS
   arm64-darwin-22
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   aws-sdk
